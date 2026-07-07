@@ -1,4 +1,7 @@
 # Projeto.3
+Gabriel Durães Betinarde - 15676732
+Eduardo Marani Barbosa Galia - 15574332
+
 Este projeto tem como objetivo exercitar a programação de microcontroladores de 32 bits por meio do desenvolvimento de uma aplicação prática utilizando a plataforma ESP32 DevKit. 
 
 Na Parte 1 do projeto, o foco principal está na configuração e controle básico de temporização e modulação de largura de pulso (PWM) utilizando os recursos já presentes no microcontrolador. O trecho mais crítico do código envolve o uso das funções clássicas da API do Arduino para ESP32, especificamente onde se determina a frequência e a resolução do canal PWM por meio de comandos estruturados de controle periférico. Ao iniciar o sistema, o código faz o mapeamento dos pinos de saída e define o ciclo de trabalho que define a potência média entregue ao atuador. O conceito central aqui é a modulação por largura de pulso, uma técnica onde a razão entre o tempo em que o sinal permanece em nível lógico alto e o período total da onda determina a tensão média simulada. Isso permite controlar a intensidade de componentes analógicos usando um sinal puramente digital. Os resultados dessa primeira etapa demonstram uma resposta linear e estável do componente controlado, validando que a temporização interna da ESP32 consegue manter a onda quadrada na frequência estipulada sem causar oscilações ou travamentos no fluxo principal do programa.
